@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend get data Jadwal Sholat from API. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Huda Ridwan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
