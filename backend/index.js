@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 const request = require("request")
-var bodyParser = require('body-parser')
+// var bodyParser = require('body-parser')
 
 
 app.use((req, res, next) => {
