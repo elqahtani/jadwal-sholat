@@ -25,9 +25,9 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-      <div id = "container" className = "container">
-      <p> {JSON.stringify(this.state.data) } </p>
-      </div>
+        <div id = "container" className = "container">
+        <p> {JSON.stringify(this.state.data) } </p>
+        </div>
       </div>
     );
   }
